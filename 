@@ -1,0 +1,34 @@
+                        List of relations
+ Schema |               Name                |   Type   |  Owner   
+--------+-----------------------------------+----------+----------
+ public | auth_group                        | table    | postgres
+ public | auth_group_id_seq                 | sequence | postgres
+ public | auth_group_permissions            | table    | postgres
+ public | auth_group_permissions_id_seq     | sequence | postgres
+ public | auth_permission                   | table    | postgres
+ public | auth_permission_id_seq            | sequence | postgres
+ public | auth_user                         | table    | postgres
+ public | auth_user_groups                  | table    | postgres
+ public | auth_user_groups_id_seq           | sequence | postgres
+ public | auth_user_id_seq                  | sequence | postgres
+ public | auth_user_user_permissions        | table    | postgres
+ public | auth_user_user_permissions_id_seq | sequence | postgres
+ public | author                            | table    | postgres
+ public | author_id_seq                     | sequence | postgres
+ public | book                              | table    | postgres
+ public | book_id_seq                       | sequence | postgres
+ public | django_admin_log                  | table    | postgres
+ public | django_admin_log_id_seq           | sequence | postgres
+ public | django_content_type               | table    | postgres
+ public | django_content_type_id_seq        | sequence | postgres
+ public | django_migrations                 | table    | postgres
+ public | django_migrations_id_seq          | sequence | postgres
+ public | django_session                    | table    | postgres
+ public | shelter_dog                       | table    | postgres
+ public | shelter_dog_id_seq                | sequence | postgres
+ public | shelter_image                     | table    | postgres
+ public | shelter_image_id_seq              | sequence | postgres
+ public | users                             | table    | postgres
+ public | users_id_seq                      | sequence | postgres
+(29 rows)
+
