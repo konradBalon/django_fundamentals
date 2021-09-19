@@ -1,5 +1,4 @@
 from django.http import HttpResponse
-from django.shortcuts import render
 
 # Create your views here.
 from exercises_app.models import Article
@@ -14,3 +13,7 @@ def get_articles(request):
             'date_added': a.date_publish,
         })
     return HttpResponse(str(results))
+
+
+def hello(request):
+    return HttpResponse('hello from Exercise_app!')
