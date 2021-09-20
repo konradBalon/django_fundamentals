@@ -105,8 +105,7 @@ def add_movie(request):
             title = form.cleaned_data['title']
             year = form.cleaned_data['year']
             rating = form.cleaned_data['rating']
-            genre = form.cleaned_data['genre']
-            screenplay = form.cleaned_data['screenplay']
+
             director_f = form.cleaned_data['director'].split()[0]
             director_l = form.cleaned_data['director'].split()[1]
             screenplay_f = form.cleaned_data['screenplay'].split()[0]
